@@ -29,7 +29,7 @@
     Installation
 </h2>
 <p>
-    Start by cloning the repository to your local machine. Ensure you have <a href="https://nodejs.org/es/" target="_blank">Node.js</a> installed and proceed to install <a href="https://angular.io/cli" target="_blank">Angular CLI</a> globally with <code>npm install -g @angular/cli@latest</code>. Open the cloned repository in Visual Studio Code or your preferred code editor. After that, in the terminal, navigate to the project directory and execute <code>npm install</code> to install all project dependencies. Finally, launch the Angular project with <code>npm run start</code> to initiate the development server.
+    Start by cloning the repository to your local machine. Ensure you have <a href="https://nodejs.org/es/" target="_blank">Node.js</a> installed and proceed to install <a href="https://angular.io/cli" target="_blank">Angular CLI</a> globally with <code>npm install -g @angular/cli@latest</code>. Open the cloned repository in <a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a> or your preferred code editor. After that, in the terminal, navigate to the project directory and execute <code>npm install</code> to install all project dependencies. Finally, launch the Angular project with <code>npm run start</code> to initiate the development server.
 </p>
 
 <h2>
