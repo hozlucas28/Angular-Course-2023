@@ -1,17 +1,44 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
 
-# Compiled output
+# ---------------------------------------------------------------------------- #
+#                                     NODE                                     #
+# ---------------------------------------------------------------------------- #
+
+# ------------------------------- NODE Modules ------------------------------- #
+
+/node_modules
+
+
+# ------------------------------ Compiled Output ----------------------------- #
+
 /dist
 /tmp
 /out-tsc
 /bazel-out
 
-# Node
-/node_modules
+
+# ----------------------------------- Logs ----------------------------------- #
+
 npm-debug.log
 yarn-error.log
 
-# IDEs and editors
+
+
+# ---------------------------------------------------------------------------- #
+#                               IDES AND EDITORS                               #
+# ---------------------------------------------------------------------------- #
+
+# ---------------------------- Visual Studio Code ---------------------------- #
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+
+# ------------------------------- Miscellaneous ------------------------------ #
+
 .idea/
 .project
 .classpath
@@ -20,15 +47,6 @@ yarn-error.log
 .settings/
 *.sublime-workspace
 
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
-
-# Miscellaneous
 /.angular/cache
 .sass-cache/
 /connect.lock
@@ -37,6 +55,11 @@ yarn-error.log
 testem.log
 /typings
 
-# System files
+
+
+# ---------------------------------------------------------------------------- #
+#                                 SYSTEM FILES                                 #
+# ---------------------------------------------------------------------------- #
+
 .DS_Store
 Thumbs.db
