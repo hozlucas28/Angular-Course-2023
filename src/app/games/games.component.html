@@ -1,0 +1,6 @@
+<h3>Favorite games</h3>
+<div>
+	@for (game of games; track game.id) {
+		<button (click)="selectFavoriteGame(game.name)">{{ game.name }}</button>
+	}
+</div>

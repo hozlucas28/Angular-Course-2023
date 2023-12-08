@@ -1,0 +1,22 @@
+<div class="container">
+	@if (isLogged) {
+		<div>
+			<h1>{{ userName }}</h1>
+			<img
+				(click)="greet()"
+				alt=""
+				src="https://github.com/hozlucas28.png"
+			/>
+		</div>
+		<app-games
+			(selectFavoriteGameEvent)="getSelectedFavoriteGame($event)"
+			userName="{{ userName }}"
+		/>
+
+		@if (favoritieGame !== '') {
+			<h3>{{ favoritieGame }}</h3>
+		}
+	} @else {
+		<button (click)="isLogged = true">Login</button>
+	}
+</div>

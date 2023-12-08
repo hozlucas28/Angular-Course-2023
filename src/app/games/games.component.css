@@ -1,0 +1,21 @@
+div {
+	display: flex;
+	flex: auto;
+	gap: 1em;
+	flex-wrap: wrap;
+}
+
+div > button {
+	background-color: #65a30d;
+	border-radius: 4em;
+	border: 0px;
+	cursor: pointer;
+	padding: 0.25em 1em;
+}
+
+div > button:hover {
+	background-color: #4c7e0a;
+	transition-duration: 150ms;
+	transition-property: background-color;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

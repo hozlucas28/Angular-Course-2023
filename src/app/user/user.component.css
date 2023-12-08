@@ -1,0 +1,43 @@
+.container {
+	background-color: #262626;
+	border-radius: 2em;
+	margin-bottom: 2em;
+	padding: 1em;
+}
+
+.container > div:first-child {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+}
+
+.container > div > img {
+	border-radius: 100%;
+	box-shadow:
+		0 10px 15px -3px rgb(0 0 0 / 0.1),
+		0 4px 6px -4px rgb(0 0 0 / 0.1);
+	height: auto;
+	width: 128px;
+}
+
+.container > h3 {
+	animation: reveal 300ms ease-out;
+	background-color: gray;
+	border-radius: 64px;
+	border: 0px;
+	margin-bottom: 0px;
+	padding: 0.25em 1em;
+	width: fit-content;
+}
+
+@keyframes reveal {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}

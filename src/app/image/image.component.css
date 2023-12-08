@@ -1,0 +1,15 @@
+div {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2em;
+	justify-content: center;
+	margin-top: 2em;
+}
+
+div > img {
+	aspect-ratio: 1 / 1;
+	border-radius: 2em;
+	border: 5px solid grey;
+	width: 256px;
+}
